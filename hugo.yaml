@@ -16,8 +16,8 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
+  title: Blogs
+  description: Welcome to my blog
   # keywords: [Blog, Portfolio, PaperMod]
   author: Me
   # author: ["Me", "You"] # multiple authors
@@ -58,7 +58,7 @@ params:
 
   # profile-mode
   profileMode:
-    enabled: true # needs to be explicitly set
+    enabled: false # needs to be explicitly set
     title: Wickes
     subtitle: a random data engineer on web
     imageUrl: "https://avatars.githubusercontent.com/u/27881570?v=4"
@@ -94,7 +94,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
+    URL: "https://github.com/wickes1.github.io/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
@@ -110,10 +110,10 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 # menu:
 #   main:
-    # - identifier: categories
-    #   name: categories
-    #   url: /categories/
-    #   weight: 10
+#     - identifier: posts
+#       name: posts
+#       url: /posts/
+#       weight: 10
     # - identifier: tags
     #   name: tags
     #   url: /tags/
